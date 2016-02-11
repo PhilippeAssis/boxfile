@@ -1,0 +1,12 @@
+.uploadZone {
+  margin: 0 auto;
+  width: 500px;
+  height: 300px !important;
+  clear: left;
+}
+.code {
+  clear: left;
+  margin: 0 auto;
+  width: 500px;
+  min-height: 300px;
+}

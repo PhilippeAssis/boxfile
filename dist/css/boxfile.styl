@@ -1,0 +1,72 @@
+@import '../../bower_components/stylus-essential/essential.styl'
+
+$successColor = rgb(43,194,148)
+$errorColor = rgb(189,76,76)
+$barColor = $successColor
+$boxColor =  rgb(233,230,230)
+
+.boxfile
+  e-transition(all)
+  background-color $boxColor
+  color #787878
+  width 100%
+  height 100%
+  min-height 150px
+  float left
+  text-align  center
+  //padding 40px 0
+  border dashed 2px lightness($boxColor, 85%)
+  cursor pointer
+  positon relative
+  .content
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+    width 90%
+  img
+    max-width 100%
+    height 100%
+  i.file
+    font-size 6em
+    color #ffffff
+    margin 5%
+  &.success
+    background-color $successColor
+  &.error
+    background-color $errorColor
+    img
+      opacity 0.1
+    .info
+      position absolute
+      top 50%
+      left 50%
+      transform translate(-50%, -50%)
+      color #FFF
+      font-size 0.8em
+
+  .bar
+    height: 20px;
+    position: relative;
+    background: #C8C8C8;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    bottom   -40px
+    & > span
+      display block
+      height: 100%;
+      background-color: $barColor;
+      position: relative;
+      overflow: hidden;
+      &.success
+        background-color $successColor
+      &.error
+        background-color $errorColor
+  .close
+    position: absolute;
+    right: 18px;
+    top: 3px;
+    padding: 10px;
+    color: #fff;
+    opacity: 1;
+    font-size: 2em;
+    z-index 10

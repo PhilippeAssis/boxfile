@@ -1,0 +1,29 @@
+{
+  "name": "Box File",
+  "authors": [
+    "Philippe Assis <assis@philippeassis.com>"
+  ],
+  "description": "Area of instant upload files, using ajax",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "upload",
+    "files",
+    "ajax",
+    "image",
+    "docs",
+    "pdf"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "stylus-essential": "git://github.com/PhilippeAssis/stylus-essential.git"
+  }
+}
