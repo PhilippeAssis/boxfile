@@ -1,0 +1,24 @@
+{
+  "name": "boxfile",
+  "authors": [
+    "Philippe Assis <assis@philippeassis.com>"
+  ],
+  "description": "upload images and files with ajax",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "ajax",
+    "upload",
+    "files",
+    "images"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
